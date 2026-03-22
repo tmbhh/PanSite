@@ -11,8 +11,8 @@ exports.handler = async (event, context) => {
     const { name, contact, question } = formData;
 
     // Твой токен бота и chat_id (добавь свои!)
-    const BOT_TOKEN = '8694471922:AAFVSE_bzfR8yNideAFpw_e84sPv5Pzjgyc'; // Замени на свой
-    const CHAT_ID = '1118454074'; // Замени на свой
+    const BOT_TOKEN = 8694471922:AAFVSE_bzfR8yNideAFpw_e84sPv5Pzjgyc; // Замени на свой
+    const CHAT_ID = 1118454074; // Замени на свой
 
     // Форматируем сообщение
     const message = `🎓 **Новая заявка на курс!**\n\n` +
